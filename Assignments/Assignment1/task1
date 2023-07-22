@@ -1,0 +1,108 @@
+//Attempt1:
+
+var Name;
+var marks;
+const scores = [
+  {
+    marks: 32,
+    Name: "Yvette Merritt",
+  },
+  {
+    marks: 57,
+    Name: "Lillian Ellis",
+  },
+  {
+    marks: 22,
+    Name: "Mccall Carter",
+  },
+  {
+    marks: 21,
+    Name: "Pate Collier",
+  },
+  {
+    marks: 91,
+    Name: "Debra Beard",
+  },
+  {
+    marks: 75,
+    Name: "Nettie Hancock",
+  },
+  {
+    marks: 20,
+    Name: "Hatfield Hodge",
+  },
+];
+const result = scores.map((onlyname) => onlyname.Name);
+console.log(result);
+
+//Attempt2
+
+// var Name;
+// var marks;
+// const scores = [
+//   {
+//     marks: 32,
+//     Name: "Yvette Merritt",
+//   },
+//   {
+//     marks: 57,
+//     Name: "Lillian Ellis",
+//   },
+//   {
+//     marks: 22,
+//     Name: "Mccall Carter",
+//   },
+//   {
+//     marks: 21,
+//     Name: "Pate Collier",
+//   },
+//   {
+//     marks: 91,
+//     Name: "Debra Beard",
+//   },
+//   {
+//     marks: 75,
+//     Name: "Nettie Hancock",
+//   },
+//   {
+//     marks: 20,
+//     Name: "Hatfield Hodge",
+//   },
+// ];
+// const result = console.log(scores.map((onlyname) => onlyname.Name));
+
+//Attempt3
+
+// var Name;
+// var marks;
+// const scores = [
+//   {
+//     marks: 32,
+//     Name: "Yvette Merritt",
+//   },
+//   {
+//     marks: 57,
+//     Name: "Lillian Ellis",
+//   },
+//   {
+//     marks: 22,
+//     Name: "Mccall Carter",
+//   },
+//   {
+//     marks: 21,
+//     Name: "Pate Collier",
+//   },
+//   {
+//     marks: 91,
+//     Name: "Debra Beard",
+//   },
+//   {
+//     marks: 75,
+//     Name: "Nettie Hancock",
+//   },
+//   {
+//     marks: 20,
+//     Name: "Hatfield Hodge",
+//   },
+// ];
+// console.log(scores.map((onlyname) => onlyname.Name));

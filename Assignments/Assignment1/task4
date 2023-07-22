@@ -1,0 +1,42 @@
+// Attempt1;
+var add = 0;
+var Name;
+var marks;
+var maxmark = 0;
+const scores = [
+  {
+    marks: 32,
+    name: "Yvette Merritt",
+  },
+  {
+    marks: 57,
+    name: "Lillian Ellis",
+  },
+  {
+    marks: 22,
+    name: "Mccall Carter",
+  },
+  {
+    marks: 21,
+    name: "Pate Collier",
+  },
+  {
+    marks: 91,
+    name: "Debra Beard",
+  },
+  {
+    marks: 75,
+    name: "Nettie Hancock",
+  },
+  {
+    marks: 20,
+    name: "Hatfield Hodge",
+  },
+];
+
+const average = scores.map((findaverage) => findaverage.marks);
+for (mark of average) {
+  add = add + mark;
+}
+const len = scores.length;
+console.log(Math.round(add / len));

@@ -1,0 +1,7 @@
+const avenger = ["hema", "priya", "thor"];
+const findlength = avenger.map((firstname) => firstname.length);
+console.log(findlength);
+
+const avengers = [12, 23, 45, 67, 89];
+const findlengt = avengers.filter((mark) => mark >= 40);
+console.log(findlengt);

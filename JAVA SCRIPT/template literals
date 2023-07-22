@@ -1,0 +1,17 @@
+// const movieurl=(domain,genre,year)=>{
+//     return "http://" + domain + "?genre=" + genre + "&year=" + year;
+// }
+// console.log(movieurl("facebook.com","entertainment",2023));
+
+//normal function
+
+function movieurl(domain, genre, year) {
+  return `http://${domain}?genre=${genre}&year=${year}`;
+}
+console.log(movieurl("facebook.com", "entertainment", 2023));
+
+//arrow function
+
+const movieurl = (domain, genre, year) =>
+  `http://${domain}?genre=${genre}&year=${year}`;
+console.log(movieurl("facebook.com", "entertainment", 2023));

@@ -1,0 +1,56 @@
+const max = [80, 60, 90, 40];
+var result = max.some((max) => (max = 40));
+console.log(max);
+console.log(result);
+
+// // Attempt1:
+
+// const max=[90,80,85,95,88];
+// var result=max.some(max=>(max<40))
+// if(result==true){
+//   console.log("fail");
+// }
+// else{
+//   console.log("pass");
+// }
+// console.log(result);
+
+// // Attempt2:
+
+// const max=[90,80,85,95,88];
+// var result=max.some(max=>(max<40))
+// if(result){//eleminating ==true by truthy falsy
+//   console.log("fail");
+// }
+// else{
+//   console.log("pass");
+// }
+// console.log(result);
+
+// // Attempt3
+
+// const max=[90,80,85,95,88];
+// var result=max.some(max=>(max<40))
+// result?
+//   console.log("fail"):
+
+//   console.log("pass")
+
+// console.log(result);
+
+// // Attemt5:
+
+// const max=[90,80,85,95,88];
+// const result=(max.some(max=>(max<40)))?fail:pass
+// console.log(result)
+
+// // Attempt6:
+
+// const max=[90,80,85,95,88];
+// const console.log(max.some(max=>(max<40)?fail:pass));
+
+// //Attempt7
+
+// const max = [90, 80, 85, 95, 88];
+// var result = max.every((max) => max > 40);
+// result ? console.log("pass") : console.log("fail");

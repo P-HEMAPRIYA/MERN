@@ -1,0 +1,10 @@
+///max number
+
+const max = [80, 60, 90, 40];
+var maxmark = 0;
+for (var mark of max) {
+  if (mark > maxmark) {
+    maxmark = mark;
+  }
+}
+console.log(maxmark);

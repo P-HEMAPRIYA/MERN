@@ -1,0 +1,29 @@
+function intersection() {
+  const array1 = [1, 2, 3, 4, 5];
+  const array2 = [1, 2, 3];
+  let inter = [];
+  let uniq = [];
+  let i;
+  let j;
+  for (i = 0; i < array1.length; i++) {
+    for (j = 0; j < array2.length; j++) {
+      if (array1[i] == array2[j]) {
+        inter.push(array1[i]);
+      }
+    }
+  }
+  console.log(inter);
+  for (i = 0; i < array1.length; i++) {
+    if (array1[i] != inter[i]) {
+      uniq.push(array1[i]);
+    }
+  }
+  for (i = 0; i < array2.length; i++) {
+    if (array2[i] != inter[i]) {
+      uniq.push(array2[i]);
+    }
+  }
+
+  console.log(uniq);
+}
+intersection();

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: #6c3428;
+      }
+      .center {
+        display: block;
+        width: 25%;
+        height: 15%;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        margin-left: 500px;
+        margin-right: 300px;
+        size: 200px;
+      }
+      .titledesign {
+        text-align: center;
+        font-size: 75px;
+      }
+      .paragraphdesign {
+        position: absolute;
+        top: 150%;
+        left: 50%;
+        padding: 10px;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <img
+        src="https://w0.peakpx.com/wallpaper/787/217/HD-wallpaper-thalapathy-67-art-work-actor-vijay-leo-movie.jpg"
+        alt="poster of actor vijay's upcoming leo movie"
+        class="center"
+        style="border-radius: 15%"
+      />
+      <div>
+        <h1 class="titledesign">LEO</h1>
+        <p1 class="paragraphdesign"
+          >After the success of Master in early 2021, it was reported that
+          Lokesh Kanagaraj visited Vijay at his residence and narrated a script
+          which impressed him. The project was supposed to be the actor's 66th
+          film as a leading actor; however, that position instead went to Varisu
+          (2023). Reports of a potential collaboration between Lokesh and Vijay
+          continued through February 2022. The following March, Lokesh confirmed
+          there were discussions for him to direct Vijay's 67th film. That May,
+          he confirmed the project, tentatively titled Thalapathy 67. The
+          project was funded by S. S. Lalit Kumar's Seven Screen Studio, which
+          had distributed and co-produced Master, while Vijay's manager Jagadish
+          serves as a co-producer. The company made a public announcement on 30
+          January 2023, confirming the project, and the film's official title
+          Leo was revealed on 3 February 2023. The film is being made on a
+          budget of ₹250–300 crore, and Vijay was reported to receive ₹120 crore
+          (US$15 million) as remuneration. However, he reportedly decided to
+          take the revenue sharing model, to benefit the film's production; as
+          per the basis, he would receive ₹50 crore (US$6.3 million) as an
+          advance, and a chunk of the profits would be received as the actor's
+          remuneration. Vijay was not in favour of making Leo a pan-Indian film
+          as he wanted to focus on satisfying the Tamil audience. The actor,
+          however, changed his mind after Lalit and Jagadish convinced him. Some
+          changes were also made to the original story to help the film cater to
+          a wider audience.</p1
+        >
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background: url(https://images.unsplash.com/photo-1580483046931-aaba29b81601?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cnVzc2lhbiUyMGdpcmx8ZW58MHx8MHx8fDA%3D&w=1000&q=80vgggggggggggggggggggggg);
+        background: rgb(63, 94, 251);
+        background: radial-gradient(
+          circle,
+          rgba(63, 94, 251, 1) 0%,
+          rgba(252, 70, 122, 0.29735644257703087) 100%
+        );
+      }
+      .o {
+        color: blueviolet;
+        margin: 100px;
+        padding: 5%;
+      }
+      p {
+        color: blue;
+      }
+      #check {
+        color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <p id="check">
+      Our robust catalog of open-source fonts and icons,<span class="o"
+        >makes it easy</span
+      >
+      to integrate expressive type
+    </p>
+    <div class="patten"></div>
+    <p>
+      Our robust catalog of open-source fonts and icons, makes it easy to
+      integrate expressive type
+    </p>
+  </body>
+</html>

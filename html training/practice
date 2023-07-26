@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice</title>
+    <style>
+      body {
+        display: grid;
+        place-content: center;
+        min-height: 100vh;
+        margin: 0;
+      }
+      .box {
+        font-family: sans-serif;
+        border-left: 5px solid blue;
+        max-width: 800px;
+        object-fit: contain;
+        width: 50%;
+        height: 50%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 20%;
+        margin-top: 10%;
+        background-color: aqua;
+        border-radius: 10px;
+        padding: 3%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <h4><strong>Intended Audience</strong></h4>
+      <p>
+        <strong
+          >Google Fonts makes it easy to bring personality and performance to
+          your websites and products.</strong
+        >
+      </p>
+      <p>
+        <strong
+          >Our robust catalog of open-source fonts and icons, makes it easy to
+          integrate expressive type</strong
+        >
+      </p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initia'l-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: rgb(54, 28, 78);;
+        display: grid;
+        place-content: center;
+        min-height: 100vh;
+        margin: 0;
+       
+     
+      }
+      .container {
+        background-color: rgb(97, 52, 139);
+        width: 600px; 
+        display: grid;
+        place-items: center;
+        grid-template-columns: 1fr 1fr;
+        border: 2px solid rgb(54, 28, 78);
+        border-radius: 3%;
+        overflow: hidden;
+        
+      }
+      .column1 {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+      }
+      .column2 {
+        height: 400px;
+      }
+      .inbetween {
+        color: rgb(31, 9, 51);
+      }
+      .image {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+      .social {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+      .heading{
+        color: white;
+      }
+      .paragraph{
+        color: rgb(189, 186, 186);
+
+      }
+      h3{
+        color: white;
+      }
+      h5{
+        color: rgb(189, 186, 186);
+      }
+
+      @media (max-width: 600px) {
+        .container {
+          display: grid;
+          grid-template-columns:1fr;
+          padding-left: 50px;
+          padding-right: 50px; 
+        }
+        .column1 {
+          padding-left: 50px;
+          padding-right: 50px; 
+        }
+        .column2 {
+            height: 400px; 
+            padding-left: 50px;
+          padding-right: 50px; 
+        }
+        
+      }
+
+     
+
+     
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="column1">
+        <h2 class="heading">
+          Get <span class="inbetween">insigths</span> help your business grow.
+        </h2>
+        <p class="paragraph">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident
+          doloribus dolore, nobis esse maxime fugit dignissimos harum,
+          blanditiis nostrum, vitae ipsum ipsa hic odit? Tempora laboriosam
+          accusantium dolorum nemo praesentium!
+        </p>
+        <div class="social">
+          <div>
+            <h3>10k+</h3>
+            <h5>COMPANIES</h5>
+          </div>
+          <div>
+            <h3>314</h3>
+            <h5>TEMPLATE<h5>
+          </div>
+          <div>
+            <h3>12M+</h3>
+            <h5>QUERIES<h5>
+          </div>
+        </div>
+      </div>
+      <div class="column2">
+        <img
+          class="image"
+          src="https://media.istockphoto.com/id/1085389362/photo/business-people-working-in-the-office.jpg?s=612x612&w=0&k=20&c=hvSdhiWmnjfRYHrm15vo0hJ7iLUvaRxNnhw7E0JDRzU="
+          alt="image of IT"
+        />
+      </div>
+    </div>
+  </body>
+</html>

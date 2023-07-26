@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>profile</title>
+    <style>
+      body {
+        display: grid;
+        place-content: center;
+        min-height: 100vh;
+        margin: 0;
+      }
+      img {
+        border-radius: 100%;
+        height: 300px;
+        width: 300px;
+        object-fit: cover;
+        border: 5px solid skyblue;
+
+        /* for zoon out {contain} */
+        border-top-style: dashed;
+        border-bottom-style: dashed;
+        border-left-color:rgb(230,23,185)
+        
+      }
+      p {
+        font-size: 48px;
+        font-family: sans-serif;
+        font-family: "Poppins", sans-serif;
+
+      }
+      h1{
+        text-align: center;
+
+      }
+      ul{
+        list-style: none;
+      }
+      li::before{
+        content: "👽";
+      }
+      li::after{
+        content: "🤷‍♀️";
+      }
+      li:first-child{
+        color:blueviolet
+      }
+      li:nth-child(2n+3){
+        color:brown
+      }
+      .box{
+        
+        height: 250px;
+        width:250px;
+        background-color: black;
+      }
+      .box:hover{
+        background-color: slateblue;
+        transition: all 1s;
+        transform: scale(1.1);
+
+      }
+      .box:active{
+        background-color: rgb(199, 25, 33);
+        transform:scale(0.9)
+
+
+      }
+      .content{
+        height:500px;
+        width:1000px;
+        background: orangered;
+        overflow-x:scroll;
+        overflow-y: hidden;
+      }
+      
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <img
+      src="https://wallpapers.com/images/hd/cute-girl-vector-art-profile-picture-jhbu3wt713zj2bti.jpg"
+      alt="profile picture"
+    />
+    <h1>HEMAPRIYA P</h1>
+    <ul>
+        <li>heyy</li>
+        <li>hello</li>
+        <li>hello</li>
+        <li>hello</li>
+        <li>hello</li>
+
+    </ul>
+    <div class="box">
+        
+
+    </div>
+    <div class="content">
+        <p>hema what are you doing?and sid whats up? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo facilis consequatur ullam nemo beatae, placeat reprehenderit corporis aliquid dolores sit veritatis nihil officiis. Atque distinctio repudiandae obcaecati perferendis consequatur aliquam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit deserunt vitae pariatur sunt doloribus ad consectetur tempora sint reprehenderit inventore voluptas, hic eos id harum illo! Aliquid suscipit officiis vitae?</p>
+    </div>
+  </body>
+</html>
+<!-- tel=call
+http=request
+mailto=mailinbox -->

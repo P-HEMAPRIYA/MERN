@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      p {
+        background-color: aqua;
+        margin: 0;
+      }
+      p:nth-child(2n) {
+        background-color: blue;
+      }
+      p:nth-child(3n) {
+        background-color: rgb(233, 150, 56);
+      }
+      section {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        /* grid-template-columns: repeat(3, 3fr);
+        gap: 10px; */
+        grid-template-columns: repeat(auto-fit, minmax(200px 1fr));
+
+        /* display: flex;
+        flex-wrap: wrap; */
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nihil
+        esse deserunt ut perferendis alias ipsa nesciunt porro eligendi numquam
+        architecto fuga optio laudantium sit, facilis dignissimos ullam
+        asperiores dolores.
+      </p>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur,
+        molestiae perferendis deserunt veniam tempore recusandae! Illum veniam
+        suscipit maiores non explicabo magni delectus animi repudiandae
+        corporis, dolorem reiciendis dolorum excepturi.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ab
+        sapiente est recusandae nam possimus aspernatur assumenda ducimus, error
+        temporibus laboriosam! Voluptatem modi quibusdam dicta repudiandae
+        delectus odit quidem quasi?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+        beatae sit iusto, numquam dignissimos, fugit doloribus natus saepe,
+        sequi rem vitae illo quia quas. Perferendis ea vel cumque repellat quae.
+      </p>
+    </section>
+  </body>
+</html>

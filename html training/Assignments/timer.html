@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: grid;
+        place-content: center;
+        min-height: 100vh;
+        margin: 0;
+      }
+      .slide {
+        background-color: aqua;
+        height: 100vh;
+        width: 100vw;
+        display: grid;
+        place-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="slide">
+      <button onclick="start()">start</button>
+      <button onclick="continew()">continew</button>
+      <button onclick="pause()">pause</button>
+    </div>
+
+    <script>
+      const colors = [
+        "red",
+        "orange",
+        "blue",
+        "green",
+        "skyblue",
+        "brown",
+        "black",
+      ];
+      var i = 0;
+      var starting;
+      function start() {
+        i = 0;
+        clearInterval(starting);
+        starting = setInterval(() => {
+          document.querySelector(".slide").style.backgroundColor = colors[i];
+          i++;
+          if (i >= colors.length) {
+            i = 0;
+          }
+        }, 1000);
+      }
+      function continew() {
+        clearInterval(starting);
+        starting = setInterval(() => {
+          document.querySelector(".slide").style.backgroundColor = colors[i];
+          i++;
+          if (i >= colors.length) {
+            i = 0;
+          }
+        }, 1000);
+      }
+      function pause() {
+        clearInterval(starting);
+      }
+
+      //  if(stop==true){
+
+      // event.stopPropagation();
+      // };
+
+      //click start cal back func willl be activated
+      //   function start(){
+      //     console.log("started")
+      //   }
+
+      //   console.log("started.....");
+      //   const callback = setTimeout(() => {
+      //     console.log("hi hema");
+      //   }, 1000);
+      //   // call back fn it involes two things (event,action is taken if event completed)
+      //   const runner = setInterval(() => {
+      //     console.log("hi priya");
+      //   }, 1000);
+      //   //stopper
+      //   setTimeout(() => {
+      //      clearInterval(runner);
+      //      console.log("stop it")
+      // }, 3000);
+    </script>
+  </body>
+</html>

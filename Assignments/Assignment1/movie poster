@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Poster</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #0c0c0c;
+      }
+
+      .movie-poster {
+        max-width: 400px;
+        margin: 50px;
+        background-color: #6e6c6c;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        text-align: center;
+      }
+
+      .movie-title {
+        font-size: 2.5rem;
+        margin: 10px 0;
+      }
+
+      .movie-genre {
+        font-size: 1.2rem;
+        color: #0a0a0a;
+        margin: 0;
+      }
+
+      .movie-description {
+        font-size: 1rem;
+        color: #444;
+        margin: 20px 0;
+      }
+
+      .movie-info {
+        font-size: 1rem;
+        color: #555;
+      }
+
+      img {
+        width: 100%;
+        max-height: 300px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        object-fit: contain;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="movie-poster">
+      <img
+        src="https://m.media-amazon.com/images/I/71-RGYJFmXL._RI_.jpg"
+        alt="Movie Poster"
+      />
+      <h1 class="movie-title">Awesome Movie</h1>
+      <p class="movie-genre"><strong>Genre:</strong>Action</p>
+      <p class="movie-Review">
+        Go and watch this in theater. Mohan Raja made Tamil movies one step
+        higher. All the characters have done their best. Jayam Ravi catches all
+        the people's attention in each and every second of the movie.
+        Nayanthara's best movie I can say. She did a wonderful acting. Each and
+        every second of the movie went thrilling and I sat on the edge of the
+        seat while watching. Villain was amazing. BOSS OF THE OTHER VILLAINS IN
+        TAMIL CINEMA. Only few comedies but nice one. Don't miss it.You can
+        watch this movie more than 10 times. It is also the best police based
+        movie. There are so many amazing twists in the movie. Best movie of the
+        decade.
+      </p>
+      <div class="movie-info">
+        <p><strong>Release Date:</strong> 11 July 2015</p>
+        <p><strong>Duration:</strong> 2h 15m</p>
+        <p><strong>Directed By:</strong>Mr.Raja</p>
+      </div>
+    </div>
+  </body>
+</html>
